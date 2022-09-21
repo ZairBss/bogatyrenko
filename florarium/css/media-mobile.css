@@ -1,0 +1,48 @@
+@media (max-width: 480px) {
+    .header__container {
+        flex-wrap: wrap;
+    }
+
+    .cart__img-wrap {
+        width: 43px;
+        height: 43px;
+    }
+
+    .cart__price {
+        font-size: 12px;
+        margin: 0px 15px 0px 11px;
+    }
+
+    .header__burger {
+        position: absolute;
+        top: 37px;
+        right: 16px;
+        width: 35px;
+        height: 24px;
+    }
+
+    .header__burger-el {
+        height: 4px;
+        width: 35px;
+        top: 10px;
+    }
+
+    .header__burger::before,
+    .header__burger::after {
+        width: 32px;
+        height: 4px;
+    }
+
+    .header .logo {
+        width: 100%;
+        margin-bottom: 23px;
+        row-gap: 23px;
+    }
+    .footer__container{
+        flex-direction: column;
+    }
+    .footer__content{
+        width: 100%;
+    }
+}
+
